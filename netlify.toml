@@ -1,0 +1,10 @@
+[build]
+  edge_functions = "netlify/edge-functions"
+  command = "pnpm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/api/smolify?path=:splat"
+  status = 301
+  force = true
