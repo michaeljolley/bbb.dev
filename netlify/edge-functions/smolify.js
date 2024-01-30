@@ -1,4 +1,4 @@
-import { getShortUrl } from './scripts/supabase.ts';
+import { getShortUrl } from './scripts/supabase';
 
 export default async function handler(req) {
   // Search for the placeholder
