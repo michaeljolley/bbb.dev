@@ -22,6 +22,6 @@ export default async function handler(req) {
   return Response.redirect('http://baldbeardedbuilder.com/', 301);
 }
 
-export const config: Config = {
+export const config = {
   path: '/api/smolify',
 };
